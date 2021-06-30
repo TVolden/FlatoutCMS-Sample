@@ -1,0 +1,11 @@
+﻿@model PageModel
+@inject FlatoutCMS.Core.PageRepository pageRepository
+@{
+    ViewData["Title"] = Model.Title;
+}
+
+<div class="text-center">
+    @Html.Raw(Model.Content)
+</div>
+
+<a href="/">Back</a>

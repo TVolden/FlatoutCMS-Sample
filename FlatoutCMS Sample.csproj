@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="FlatoutCMS" Version="1.0.2" />
+    <PackageReference Include="FlatoutCMS" Version="1.0.3" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="7.0.5" />
   </ItemGroup>
 
